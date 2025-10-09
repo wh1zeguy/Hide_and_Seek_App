@@ -16,12 +16,12 @@ class MainActivity : AppCompatActivity() {
         val setupButton = findViewById<Button>(R.id.setupButton)
         val quitButton = findViewById<Button>(R.id.exitButton)
 
-        /*playButton.setOnClickListener {
-            val intent = Intent(this, PlayActivity::class.java)
+        playButton.setOnClickListener {
+            val intent = Intent(this, GameActivity::class.java)
             startActivity(intent)
         }
 
-        setupButton.setOnClickListener {
+        /*setupButton.setOnClickListener {
             val intent = Intent(this, SetupActivity::class.java)
             startActivity(intent)
         }*/

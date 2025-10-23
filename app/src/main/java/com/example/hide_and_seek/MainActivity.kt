@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, GameActivity::class.java)
             startActivity(intent)
         }
+        setupButton.setOnClickListener {
+            val intent = Intent(this, SetupActivity::class.java)
+            startActivity(intent)
+        }
 
         /*setupButton.setOnClickListener {
             val intent = Intent(this, SetupActivity::class.java)

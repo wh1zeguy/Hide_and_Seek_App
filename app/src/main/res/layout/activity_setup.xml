@@ -9,11 +9,13 @@
 
     <EditText
         android:id="@+id/locationNameInput"
-        android:textColor="#FFFFFF"
         android:hint="Enter location Description"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B3FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text" />
+
 
     <Button
         android:id="@+id/saveLocationButton"

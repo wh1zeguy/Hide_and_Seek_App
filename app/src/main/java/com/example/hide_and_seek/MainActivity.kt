@@ -21,10 +21,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        /*setupButton.setOnClickListener {
+        setupButton.setOnClickListener {
             val intent = Intent(this, SetupActivity::class.java)
             startActivity(intent)
-        }*/
+        }
 
         quitButton.setOnClickListener {
             finishAffinity()

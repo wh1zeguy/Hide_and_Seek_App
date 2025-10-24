@@ -23,6 +23,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".GameActivity" />
+        <activity android:name="SetupActivity" />
+        <activity android:name="GameOverActivity" />
+        <activity android:name=".YouWinActivity" />
     </application>
 
 </manifest>

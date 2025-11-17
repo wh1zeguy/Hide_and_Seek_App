@@ -1,3 +1,6 @@
+//https://github.com/karim-eg/DataStore-Android-Example/tree/master/app/src/main/java/co/encept/datastore
+//The link above is a reference to a data storage reference that was used to help with the creation of this file
+
 package com.example.hide_and_seek
 
 import android.content.Context

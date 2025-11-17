@@ -1,3 +1,6 @@
+//https://github.com/shadsluiter/gpsDemoStarting/tree/master?tab=readme-ov-file
+// The link above is a reference to a gps tracking reference that was used to help with the creation of this file
+
 package com.example.hide_and_seek
 
 import android.Manifest

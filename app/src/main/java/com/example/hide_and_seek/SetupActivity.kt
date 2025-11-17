@@ -82,7 +82,8 @@ class SetupActivity : AppCompatActivity() {
             Toast.makeText(this, "Location permission required", Toast.LENGTH_SHORT).show()
         }
     }
-
+//https://github.com/karim-eg/DataStore-Android-Example/tree/master/app/src/main/java/co/encept/datastore
+//The link above is a reference to a data storage reference that was used to help with the creation of the code below
     private fun saveCurrentLocation() {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
             != PackageManager.PERMISSION_GRANTED
